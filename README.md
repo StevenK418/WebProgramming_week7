@@ -8,7 +8,7 @@ All work for Labsheet 7 of Web Programming, Semester 2 Bsc Hons computing, ItSli
 
 Firebase Details: 
 
-Live app URL:       https://ca-3---movie-finder.web.app/
+    => Live app URL:       https://ca-3---movie-finder.web.app/
 
 |=========================================================================================|
 
