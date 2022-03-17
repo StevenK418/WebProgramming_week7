@@ -4,7 +4,7 @@
     <div class="form-group">
       <input type="text" name="movie-name" class="form-control" #moviename placeholder="Enter Movie name">
     </div>
-    <button (click)="getMovieDetails(moviename.value)">Get Movie Details</button>
+    <button class="btn btn-primary mt-3" (click)="getMovieDetails(moviename.value)">Get Movie Details</button>
   </form>
   
   <div class="row bg-light mt-4 p-4" *ngIf="movieData">
