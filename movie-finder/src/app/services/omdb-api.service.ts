@@ -14,7 +14,7 @@ export class OmdbApiService {
   private _key='?apikey=5d4bd3b3&t=';
   constructor(private _http:HttpClient) { }
 
-  getMovieData(movieName):Observable<IOMDBResponse>
+  getMovieData(movieName:string):Observable<IOMDBResponse>
   {
     return this._http.get<IOMDBResponse>(this._siteURL + this._key + movieName)
     .pipe(

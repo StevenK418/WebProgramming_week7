@@ -9,8 +9,8 @@ import { IOMDBResponse } from './omdbresponse';
   providers: [OmdbApiService]
 })
 export class AppComponent {
-  
-  movieData:IOMDBResponse;
+
+  movieData?:IOMDBResponse;
   errorMessage:any;
 
   constructor(private _omdbService:OmdbApiService)
